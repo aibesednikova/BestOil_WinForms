@@ -305,7 +305,7 @@ namespace BestOil
         {
             if (IsChanged.Value == true)
             {
-                DialogResult isChangedResult = MessageBox.Show("Список товаров был изменён. \nСохранить изменения?", "ПРЕДУПРЕЖДЕНИЕ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult isChangedResult = MessageBox.Show("Список товаров был изменён. \nСохранить изменения?", "ПРЕДУПРЕЖДЕНИЕ", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (isChangedResult == DialogResult.Yes)
                 {
                     Save_MenuItem_Click(this, e);
