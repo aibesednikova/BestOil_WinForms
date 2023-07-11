@@ -589,7 +589,7 @@ namespace BestOil
             this.Edit_MenuItem,
             this.EditCafe_MenuItem});
             this.Data_ToolStripMenuItem.Name = "Data_ToolStripMenuItem";
-            this.Data_ToolStripMenuItem.Size = new System.Drawing.Size(91, 32);
+            this.Data_ToolStripMenuItem.Size = new System.Drawing.Size(91, 29);
             this.Data_ToolStripMenuItem.Text = "Данные";
             // 
             // Load_MenuItem
@@ -633,7 +633,7 @@ namespace BestOil
             this.DailyProceeds_MenuItem,
             this.PrintCheck_MenuItem});
             this.Proceeds_ToolStripMenuItem.Name = "Proceeds_ToolStripMenuItem";
-            this.Proceeds_ToolStripMenuItem.Size = new System.Drawing.Size(80, 32);
+            this.Proceeds_ToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
             this.Proceeds_ToolStripMenuItem.Text = "Доход";
             // 
             // DailyProceeds_MenuItem
@@ -658,7 +658,7 @@ namespace BestOil
             this.Quit_ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Quit_MenuItem});
             this.Quit_ToolStripMenuItem.Name = "Quit_ToolStripMenuItem";
-            this.Quit_ToolStripMenuItem.Size = new System.Drawing.Size(80, 32);
+            this.Quit_ToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
             this.Quit_ToolStripMenuItem.Text = "Выход";
             // 
             // Quit_MenuItem
@@ -688,7 +688,7 @@ namespace BestOil
             this.toolStripButton5.Image = global::BestOil.Properties.Resources.icons8_open_48;
             this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(34, 33);
+            this.toolStripButton5.Size = new System.Drawing.Size(34, 28);
             this.toolStripButton5.Text = "toolStripButton5";
             this.toolStripButton5.Click += new System.EventHandler(this.Load_MenuItem_Click);
             // 
@@ -698,7 +698,7 @@ namespace BestOil
             this.toolStripButton6.Image = global::BestOil.Properties.Resources.save_FILL0_wght400_GRAD0_opsz48;
             this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(34, 33);
+            this.toolStripButton6.Size = new System.Drawing.Size(34, 28);
             this.toolStripButton6.Text = "toolStripButton6";
             this.toolStripButton6.Click += new System.EventHandler(this.Save_MenuItem_Click);
             // 
@@ -708,7 +708,7 @@ namespace BestOil
             this.toolStripButton7.Image = global::BestOil.Properties.Resources.icons8_revenue_48;
             this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(34, 33);
+            this.toolStripButton7.Size = new System.Drawing.Size(34, 28);
             this.toolStripButton7.Text = "toolStripButton7";
             this.toolStripButton7.Click += new System.EventHandler(this.DailyProceeds_MenuItem_Click);
             // 
@@ -718,7 +718,7 @@ namespace BestOil
             this.toolStripButton8.Image = global::BestOil.Properties.Resources.icons8_bill_48;
             this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(34, 33);
+            this.toolStripButton8.Size = new System.Drawing.Size(34, 28);
             this.toolStripButton8.Text = "toolStripButton8";
             this.toolStripButton8.Click += new System.EventHandler(this.PrintCheck_MenuItem_Click);
             // 
